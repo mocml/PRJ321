@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+}
+/* #navbar{
+    color : red;
+    font-size: 20px;
+    padding: 20px;
+    background-color:tan;
+    display: block;
+   
+}
+
+header a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+ 
+}
+header a :hover {
+    background-color: sienna;
+}*/
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    opacity: 0.9;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: sandybrown;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:steelblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+#home:hover{
+    background-color:peru;
+}
